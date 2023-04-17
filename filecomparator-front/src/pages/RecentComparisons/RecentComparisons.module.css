@@ -1,0 +1,74 @@
+table  {
+    border-top: 0.3vw solid black;
+    border-left: 0.3vw solid black;
+    border-right: 0.3vw solid black;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+.scrollableTable {
+    overflow: scroll;
+    height: 29vw;
+}
+.secondTableRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.namePage {
+    font-size: 3vw;
+}
+.AlignItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.tableRow {
+    height: 4vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.tableCol {
+    border-bottom: 0.3vw solid black;
+    border-left: 0.3vw solid black;
+    background-color: #FFFCE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 11vw;
+}
+.tdStyles {
+    border-top: 0.3vw solid black;
+    border-bottom: 0.3vw solid black;
+    border-left: 0.3vw solid black;
+    background-color: #FFFCE2;
+    height: 4vw;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+    font-size: 1vw;
+    text-align: center;
+    overflow: scroll;
+}
+.tdStylesMLast {
+    border-right: none
+}
+.tdStylesF {
+    border-left: none
+}
+.tdStylesMFirst {
+    border-left: none
+}
+.searchField {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1vw;
+    margin-top: -3.5vw;
+    margin-right: 13vw;
+}

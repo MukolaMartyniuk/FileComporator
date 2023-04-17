@@ -1,0 +1,77 @@
+.tableTable {
+    border: 0.14625vw solid black;
+    width: 42.6vw;
+    font-size: 1vw;
+}
+.tableTableStat_1 {
+    height: 4.3875vw;
+}
+.tableTableStat_2 {
+    height: 1.95vw;
+}
+.iconTable {
+    width: 1.5vw;
+    cursor: pointer;
+}
+.thFirst {
+    width: 4vw;
+    border-right: 0.14625vw solid black;
+}
+.thFirstStat {
+    width: 7vw;
+    overflow: scroll;
+    border-right: 0.14625vw solid black;
+}
+.thFirstTopTable {
+    width: 7vw;
+    border-right: 0.14625vw solid black;
+    overflow: scroll;
+}
+.thFirstCol {
+    padding-left: 3vw;
+}
+.thLastCol {
+    padding-right: 3.3vw;
+}
+.thFirstUp {
+    width: 14vw;
+    border-right: 0.14625vw solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.thSecond {
+    width: 33vw;
+    overflow: scroll;
+    border-right: 0.14625vw solid black;
+}
+.thThird {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tableTableLeft {
+    position: absolute;
+    top: 7.06875vw;
+    left: -0.05vw;
+}
+.tableTableRight {
+    position: absolute;
+    top: 7.06875vw;
+    right: -0.15vw;
+}
+.unionTable {
+    position: absolute;
+    top: -0.04875000000000001vw;
+}
+.tableTableUnion {
+    border: 0.14625vw solid black;
+    width: 85.3vw;
+    height: 7.36125vw;
+    font-size: 1vw;
+}
+.spanStyle:hover {
+    color: rgba(169, 139, 255, 47);
+    cursor: pointer;
+}

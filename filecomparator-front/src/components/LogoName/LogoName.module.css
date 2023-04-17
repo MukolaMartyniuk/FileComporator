@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.flexDivCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HBer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+.HBerBig {
+    font-size: 3vw;
+    height: 4.84375vw;
+}
+.HBerSmall {
+    font-size: 1vw;
+    height: 2.421875vw;
+    margin-left: 0.3vw;
+}
+.ImageDivBig {
+    width: 15vw;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+.ImageDivSmall {
+    width: 4vw;
+    margin-left: 0.2vw;
+    cursor: pointer;
+}
+.LogoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overDiv {
+    overflow: scroll;
+}
